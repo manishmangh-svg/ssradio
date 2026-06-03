@@ -3,29 +3,36 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Shyam Sunder Radio & Electric Works | Sound Service Ajmer</title>
-<meta name="description" content="Professional sound system rental and event audio services in Ajmer. हिन्दी और English दोनों में जानकारी उपलब्ध।">
+<title>Shyam Sunder Radio & Electric Works | Ajmer</title>
+<meta name="description" content="Sound System Rental, Political Rally Setup, Voice Recording Services in Ajmer. हिन्दी और English दोनों में जानकारी।">
+<meta name="keywords" content="sound system rental Ajmer, sound service Ajmer, Shyam Sunder Radio, साउंड सिस्टम अजमेर, राजनीतिक रैली साउंड">
 <style>
 *{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
 body{background:#0d1117;color:#fff;line-height:1.6}
 header{background:linear-gradient(to right,#000,#1f2937);padding:60px 20px;text-align:center}
 header h1{color:#00d4ff}
-.container{width:90%;max-width:1200px;margin:auto;padding:40px 0}
-.card{background:#161b22;padding:20px;border-radius:12px;margin:10px 0}
-.btn{display:inline-block;padding:10px 20px;background:#00d4ff;color:#000;text-decoration:none;border-radius:8px}
-.lang{position:fixed;top:10px;right:10px}
+.container{width:90%;max-width:1200px;margin:auto;padding:50px 0}
+.services{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:25px}
+.card{background:#161b22;padding:20px;border-radius:15px;text-align:center}
+.card img{width:100%;height:180px;object-fit:cover;border-radius:10px;margin-bottom:10px}
+h2{color:#00d4ff;text-align:center;margin-bottom:20px}
+.contact{background:#161b22;padding:25px;border-radius:15px;text-align:center}
+.btn{display:inline-block;margin-top:15px;padding:12px 25px;background:#00d4ff;color:#000;text-decoration:none;border-radius:8px}
+footer{text-align:center;padding:20px;background:#000}
+.lang{position:fixed;top:10px;right:10px;z-index:999}
 .lang button{padding:8px 12px;margin-left:5px}
 .hi{display:none}
-footer{text-align:center;padding:20px;background:#000}
+.hero img{width:100%;max-height:420px;object-fit:cover}
 </style>
 <script>
 function showLang(lang){
- document.querySelectorAll('.en').forEach(x=>x.style.display=(lang==='en'?'block':'none'));
- document.querySelectorAll('.hi').forEach(x=>x.style.display=(lang==='hi'?'block':'none'));
+ document.querySelectorAll('.en').forEach(e=>e.style.display=(lang==='en'?'block':'none'));
+ document.querySelectorAll('.hi').forEach(e=>e.style.display=(lang==='hi'?'block':'none'));
 }
 </script>
 </head>
 <body>
+
 <div class="lang">
 <button onclick="showLang('en')">English</button>
 <button onclick="showLang('hi')">हिन्दी</button>
@@ -37,32 +44,43 @@ function showLang(lang){
 <p class="hi">68 वर्षों से विश्वसनीय साउंड सेवा प्रदाता</p>
 </header>
 
+<div class="hero">
+<img src="speaker.webp" alt="Sound System">
+</div>
+
 <section class="container">
 <h2 class="en">About Us</h2>
 <h2 class="hi">हमारे बारे में</h2>
 
-<p class="en">We provide professional sound systems for political rallies, stage shows, weddings, public announcements, religious events and voice recordings in Ajmer.</p>
+<p class="en">We provide professional sound systems for political rallies, minister events, weddings, stage shows, public announcements and voice recording services in Ajmer.</p>
 
-<p class="hi">हम अजमेर में राजनीतिक रैलियों, स्टेज शो, शादियों, धार्मिक कार्यक्रमों, सार्वजनिक घोषणाओं तथा वॉइस रिकॉर्डिंग के लिए प्रोफेशनल साउंड सिस्टम उपलब्ध कराते हैं।</p>
+<p class="hi">हम अजमेर में राजनीतिक रैलियों, मंत्री कार्यक्रमों, शादियों, स्टेज शो, सार्वजनिक घोषणाओं और वॉइस रिकॉर्डिंग सेवाओं के लिए प्रोफेशनल साउंड सिस्टम उपलब्ध कराते हैं।</p>
 </section>
 
 <section class="container">
 <h2 class="en">Our Services</h2>
 <h2 class="hi">हमारी सेवाएं</h2>
 
+<div class="services">
+
 <div class="card">
+<img src="speaker.webp" alt="Sound System Rental">
 <h3 class="en">Sound Systems on Rent</h3>
 <h3 class="hi">किराये पर साउंड सिस्टम</h3>
 </div>
 
 <div class="card">
+<img src="mic.webp" alt="Political Rally Setup">
 <h3 class="en">Political Rally Setup</h3>
 <h3 class="hi">राजनीतिक रैली साउंड व्यवस्था</h3>
 </div>
 
 <div class="card">
+<img src="recording.webp" alt="Voice Recording">
 <h3 class="en">Voice Recording Services</h3>
 <h3 class="hi">वॉइस रिकॉर्डिंग सेवाएं</h3>
+</div>
+
 </div>
 </section>
 
@@ -70,7 +88,7 @@ function showLang(lang){
 <h2 class="en">Contact Us</h2>
 <h2 class="hi">संपर्क करें</h2>
 
-<div class="card">
+<div class="contact">
 <p><strong>Management:</strong> Tarachand Manghnani</p>
 <p><strong>Mobile:</strong> 9460180195</p>
 <p><strong>Landline:</strong> 0145-2623095</p>
